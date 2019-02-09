@@ -7,11 +7,11 @@ The following steps assume you have FreeBSD 11 up and running. First, login into
 	cd ~
     mkdir diladele
     cd diladele
-    git clone git@github.com:diladele/dnssafety-pfsense-repo.git
-    cd dnssafety-pfsense-repo
+    git clone git@github.com:diladele/dnssafety-pfsense-repo.git    
 
 Now, retrieve the latest stable build of DNS Safety Filter into `dnssafety-pfsense-repo` folder.
 
+    cd dnssafety-pfsense-repo
     fetch http://packages.diladele.com/dnssafety/0.4.0.9E0B/amd64/release/freebsd11/dnssafety-0.4.0-amd64.txz
 
 And create the required repo structure using `pkg` command.
@@ -25,9 +25,16 @@ After this command the following files will appear in the current folder.
     packagesite.txz
     dnssafety-6.4.0-amd64.txz
 
-Commit them into git.
+Commit them into git and push to github.com.
 
 ## How to publish new build of DNS Safety Filter into the repo
+
+TODO
+
+## How to install DNS Safety Filter using this repo in pfSense 2.4
+
+TODO
+
 
 
 
