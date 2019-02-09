@@ -30,15 +30,8 @@ TODO
 
 ## How to install DNS Safety Filter using this repo in pfSense 2.4
 
-Assuming you have pfSense 2.4 up and running open console and run the following command to install a reference to the DNS Safety Filter repo.
+Assuming you have pfSense 2.4 up and running, open console and run the following commands to install a reference to the DNS Safety Filter repo and install it. Note this only installs the DNS filtering daemon!
 
-   fetch -q -o /usr/local/etc/pkg/repos/dnssafety.conf https://raw.githubusercontent.com/diladele/dnssafety-pfsense-repo/master/dnssafety.conf
-pkg update
-pkg install dnssafety
-
-
-TODO
-
-
-
-
+    fetch -q -o /usr/local/etc/pkg/repos/dnssafety.conf https://raw.githubusercontent.com/diladele/dnssafety-pfsense-repo/master/dnssafety.conf
+    pkg update
+    pkg install dnssafety
