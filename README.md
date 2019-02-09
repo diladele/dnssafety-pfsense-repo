@@ -22,7 +22,7 @@ After this command the following files will appear in the `repo/FreeBSD:11:amd64
     digests.txz
     meta.txz
     packagesite.txz
-    dnssafety-6.4.0-amd64.txz
+    dnssafety-0.4.0-amd64.txz
 
 ## How to publish new build of DNS Safety Filter into the repo
 
