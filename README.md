@@ -29,5 +29,12 @@ Commit them into git and push to github.com.
 
 ## How to publish new build of DNS Safety Filter into the repo
 
+TODO
+
+## How to install DNS Safety Filter using this repo in pfSense 2.4
+
+TODO
+
+
 
 
