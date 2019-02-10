@@ -1,5 +1,18 @@
 # External repo for DNS Safety Filter for pfSense project
 
+## How to publish new build of DNS Safety Filter into the repo
+
+TODO
+
+## How to install DNS Safety Filter using this repo in pfSense 2.4
+
+Assuming you have pfSense 2.4 up and running, open console and run the following commands to install a reference to the DNS Safety Filter repo and install it. Note this only installs the DNS filtering daemon!
+
+    fetch -q -o /usr/local/etc/pkg/repos/dnssafety.conf https://raw.githubusercontent.com/diladele/dnssafety-pfsense-repo/master/dnssafety.conf
+    pkg update
+    pkg install dnssafety
+
+
 ## How to create repo structure (only once)
 
 The following steps assume you have FreeBSD 11 up and running. First, login into into console using normal user credentials (here we assume the user name is `builder`) and create the required folder structure.
@@ -24,14 +37,3 @@ After this command the following files will appear in the `repo/FreeBSD:11:amd64
     packagesite.txz
     dnssafety-0.4.0-amd64.txz
 
-## How to publish new build of DNS Safety Filter into the repo
-
-TODO
-
-## How to install DNS Safety Filter using this repo in pfSense 2.4
-
-Assuming you have pfSense 2.4 up and running, open console and run the following commands to install a reference to the DNS Safety Filter repo and install it. Note this only installs the DNS filtering daemon!
-
-    fetch -q -o /usr/local/etc/pkg/repos/dnssafety.conf https://raw.githubusercontent.com/diladele/dnssafety-pfsense-repo/master/dnssafety.conf
-    pkg update
-    pkg install dnssafety
