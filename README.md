@@ -2,7 +2,7 @@
 
 ## How to publish new build of DNS Safety Filter into the repo
 
-Here is how to publish new 0.4.0.A201 build of DNS Safety into the pfSense repo. Open console and run the following commands.
+Here is how to publish new 0.4.0.2B5A build of DNS Safety into the pfSense repo. Open console and run the following commands.
 
     cd diladele/dnssafety-pfsense-repo/repo/FreeBSD:11:amd64
     fetch http://packages.diladele.com/dnssafety/0.4.0.2B5A/amd64/release/freebsd11/dnssafety-0.4.0-amd64.txz
