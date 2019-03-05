@@ -13,7 +13,7 @@ Commit the following files into git and push to github.com.
     digests.txz
     meta.txz
     packagesite.txz
-    dnssafety-0.4.0-amd64.txz
+    dnssafety-0.5.0-amd64.txz
 
 
 ## How to install DNS Safety Filter using this repo in pfSense 2.4
