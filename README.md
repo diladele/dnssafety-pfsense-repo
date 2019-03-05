@@ -29,7 +29,7 @@ Assuming you have pfSense 2.4 up and running, open console and run the following
 
 The following steps assume you have FreeBSD 11 up and running. First, login into into console using normal user credentials (here we assume the user name is `builder`) and create the required folder structure.
 
-	cd ~
+    cd ~
     mkdir diladele
     cd diladele
     git clone git@github.com:diladele/dnssafety-pfsense-repo.git    
@@ -47,5 +47,5 @@ After this command the following files will appear in the `repo/FreeBSD:11:amd64
     digests.txz
     meta.txz
     packagesite.txz
-    dnssafety-0.4.0-amd64.txz
+    dnssafety-0.5.0-amd64.txz
 
